@@ -1,0 +1,51 @@
+.features-section {
+    padding: 4em 0;
+    background: #fff;
+    text-align: center;
+  }
+  
+  .section-title {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+  }
+  
+  .tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+  }
+  
+  .tab-button {
+    background: #007bff;
+    color: #fff;
+    padding: 1em 2em;
+    margin: 0 0.5em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .tab-button.active,
+  .tab-button:hover {
+    background: #0056b3;
+  }
+  
+  .tab-content {
+    display: none;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .tab-content.active {
+    display: block;
+  }
+  
+  .tab-content h3 {
+    margin-bottom: 0.5em;
+  }
+  
+  .tab-content p {
+    color: #666;
+  }
+  

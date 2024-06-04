@@ -1,0 +1,35 @@
+.problems-section {
+    padding: 4em 0;
+    background: #f9f9f9;
+    text-align: center;
+  }
+  
+  .section-title {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+  }
+  
+  .problem-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .problem-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 2em;
+    margin: 1em;
+    flex: 1;
+    max-width: 300px;
+  }
+  
+  .problem-card h3 {
+    margin-bottom: 0.5em;
+  }
+  
+  .problem-card p {
+    color: #666;
+  }
+  

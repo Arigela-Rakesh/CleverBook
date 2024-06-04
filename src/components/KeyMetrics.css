@@ -1,0 +1,40 @@
+.metrics-section {
+    padding: 4em 0;
+    background: #fff;
+    text-align: center;
+  }
+  
+  .section-title {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+  }
+  
+  .metrics-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .metrics-card {
+    background: #f9f9f9;
+    border-radius: 5px;
+    padding: 2em;
+    margin: 1em;
+    flex: 1;
+    max-width: 300px;
+  }
+  
+  .metrics-card i {
+    font-size: 3em;
+    color: #007bff;
+    margin-bottom: 0.5em;
+  }
+  
+  .metrics-card h3 {
+    margin-bottom: 0.5em;
+  }
+  
+  .metrics-card p {
+    color: #666;
+  }
+  
